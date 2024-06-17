@@ -1,0 +1,44 @@
+.cardInfos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-gray);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cardAvatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-purple);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--pattern-yellow);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+
+.nameProfessionalText {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark-purple);
+  padding-bottom: 0.5rem;
+}
+
+.areaProfessionalText {
+  font-size: 0.875rem;
+  color: var(--dark-purple);
+}
+
+.cardInfos:hover {
+  background-color: var(--secondary-purple);
+}
+
+.selected {
+  background-color: var(--secondary-purple);
+  border: 2px solid var(--dark-purple);
+}

@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: #f6f6f1;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --dark-purple: #412f65;
+  --pattern-yellow: #ffae11;
+  --pattern-gray: #7a899f;
+  --secondary-gray: #e1e5ea;
+  --secondary-yellow: #fff3cf;
+  --secondary-purple: #e4d8fe;
+  --pattern-red: #e13a33;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--pattern-gray);
+}
+
+input,
+select {
+  background-color: #fff;
+  padding-left: 0.75rem;
+  border-radius: 0.625rem;
+  font-size: 1rem;
+  height: 2.5rem;
+}
+
+input:focus-visible {
+  outline: 1px solid var(--pattern-gray);
+}
+
+.input-pattern {
+  border: 1px solid var(--secondary-gray);
+  color: #000;
+}
+
+.input-error {
+  border: 1px solid var(--pattern-red);
+  color: var(--pattern-red);
+}
+
+header {
+  padding: 0.5rem 8.5rem;
+  background-color: var(--dark-purple);
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline-yellow {
+  border: 1px solid var(--pattern-yellow);
+  background-color: transparent;
+  color: var(--pattern-yellow);
+  transition: 0.25s;
+}
+
+.btn-outline-yellow:hover {
+  background-color: var(--pattern-yellow);
+  color: var(--dark-purple);
+}
+
+.btn-outline-purple {
+  border: 1px solid var(--dark-purple);
+  background-color: transparent;
+  color: var(--dark-purple);
+  transition: 0.25s;
+}
+
+.btn-outline-purple:hover {
+  background-color: var(--dark-purple);
+  color: #ffffff;
+}
+
+.btn-filed-yellow {
+  border: 1px solid transparent;
+  background-color: var(--pattern-yellow);
+  color: var(--dark-purple);
+}
+
+.btn-filed-purple {
+  border: 1px solid transparent;
+  background-color: var(--dark-purple);
+  color: #ffffff;
+}
+
+.btn-disable {
+  border: 1px solid var(--pattern-gray);
+  background-color: var(--secondary-gray);
+  color: var(--pattern-gray);
+  cursor: auto;
+}
+
+.btn-text {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.btn-inline {
+  font-size: 0.875rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+footer {
+  background-color: var(--dark-purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+  color: #f6f6f1;
+  padding: 2.5rem 8.5rem 2rem 8.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.secondaryYellow {
+  background-color: var(--secondary-yellow);
+}
+
+.secondaryPurple {
+  background-color: var(--secondary-purple);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--dark-purple);
+}
+
+.description {
+  font-size: 1.25rem;
+  color: var(--pattern-gray);
+  max-width: 75rem;
+}
+
+hr {
+  background-color: var(--pattern-gray);
+  width: 100%;
+  border: none;
+  height: 1px;
+}
+
+.tag-content-info {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.625rem;
+}
+
+#tag-content-info-yellow {
+  color: var(--pattern-yellow);
+  font-weight: 700;
+  background-color: var(--secondary-yellow);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

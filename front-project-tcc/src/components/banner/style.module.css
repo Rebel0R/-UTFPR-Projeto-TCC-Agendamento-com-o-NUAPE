@@ -1,0 +1,25 @@
+.bannerContainer {
+  display: flex;
+  gap: 72px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8.5rem;
+  margin: 2.5rem 0;
+}
+
+.bannerTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--dark-purple);
+  padding-bottom: 2rem;
+}
+
+.bannerDescription {
+  font-size: 1.25rem;
+  color: var(--pattern-gray);
+  padding-bottom: 2rem;
+}
+
+.bannerContent {
+  margin-bottom: 2rem;
+}

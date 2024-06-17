@@ -1,0 +1,81 @@
+.calendarSlots {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  max-width: 20.75rem;
+}
+
+.calendarSlots::-webkit-scrollbar {
+  display: none;
+}
+
+.containerAvaliableDaysItem {
+  width: calc((100% - (5 * 0.5rem)) / 5);
+  flex: none;
+}
+
+.containerUnavailableDaysItem {
+  width: calc((100% - (5 * 0.5rem)) / 5);
+  flex: none;
+}
+
+.contentAvaliableHours {
+  padding-top: 0.5rem;
+}
+
+.headerAvaliableDay {
+  border: 1px solid var(--secondary-gray);
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.headerUnavailableDay {
+  background-color: var(--secondary-gray);
+  padding: 0.25rem;
+}
+
+.headerAvDayTitle {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.headerAvDayNumber {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.slotsItemHour {
+  padding: 0.25rem 0;
+  text-align: center;
+}
+.tagHour {
+  padding: 0.375rem 0.625rem;
+  font-size: 0.75rem;
+  border: none;
+}
+
+.tagHourAble {
+  color: var(--dark-purple);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.tagHourAble:hover {
+  background-color: var(--secondary-purple);
+}
+
+.tagHourDisable {
+  text-decoration: line-through;
+  background-color: var(--secondary-gray);
+  color: var(--pattern-gray);
+  cursor: auto;
+}

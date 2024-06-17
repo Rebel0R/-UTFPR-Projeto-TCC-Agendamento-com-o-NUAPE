@@ -1,0 +1,30 @@
+.loginContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loginLeftSideContent {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginRightSideContent {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/images/background-texture-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.loginBannerImg {
+  width: 30.5rem;
+  height: 30.5rem;
+}

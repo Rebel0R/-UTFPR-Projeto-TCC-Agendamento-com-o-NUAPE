@@ -1,0 +1,84 @@
+.navItems {
+  display: flex;
+  flex-direction: row;
+  gap: 4.5rem;
+  justify-content: space-between;
+}
+
+.linkItemsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.allLinks {
+  display: flex;
+  gap: 4rem;
+}
+
+.linkItem {
+  font-weight: 500;
+  color: #f6f6f1;
+  text-decoration: inherit;
+  font-size: 1rem;
+}
+.linkItem:hover {
+  color: #ffae11;
+  transition: 150ms;
+}
+
+.navButtons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.navCircularContent {
+  padding: 1rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--pattern-yellow);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navTextabbreviation {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark-purple);
+}
+
+.navUserNameContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navUserNameText {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.strongText {
+  font-weight: 700;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 4.25rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 10rem;
+  background-color: #f1f3f6; /* Cor de fundo do menu suspenso */
+  border-radius: 0 0 10px 10px; /* Arredonda as bordas */
+  z-index: 1; /* Garante que o menu suspenso fique sobre os outros elementos */
+}
+
+.grayText {
+  color: var(--pattern-gray);
+}

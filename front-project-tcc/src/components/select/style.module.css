@@ -1,0 +1,19 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.selectErrorMessage {
+  color: var(--pattern-red);
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#selectRequired {
+  color: var(--pattern-red);
+  margin-left: 0.25rem;
+}

@@ -1,0 +1,18 @@
+.radioContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radioContainer label {
+  font-size: 1rem;
+  color: var(--dark-purple);
+}
+
+.radioContainer input {
+  margin: 0 0.5rem 0 0;
+}
+
+.radioContainer input:checked {
+  accent-color: var(--dark-purple);
+}

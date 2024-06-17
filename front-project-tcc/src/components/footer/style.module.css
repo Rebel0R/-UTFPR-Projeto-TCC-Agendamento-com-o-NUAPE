@@ -1,0 +1,38 @@
+.footerTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footerCollumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footerTitle {
+  font-size: 1.25rem;
+  color: var(--pattern-yellow);
+  font-weight: 600;
+}
+.footerText {
+  font-size: 1rem;
+  max-width: 25.5rem;
+}
+
+.footerListItem {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding-bottom: 1rem;
+}
+
+.footerTextListItem {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footerCopyright {
+  font-size: 0.875rem;
+  color: #f6f6f1;
+}

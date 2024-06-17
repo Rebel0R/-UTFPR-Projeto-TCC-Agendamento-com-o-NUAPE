@@ -1,0 +1,76 @@
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--dark-purple);
+  width: 20rem;
+  padding: 2rem 1.5rem;
+  gap: 8rem;
+}
+
+.sidebarAvatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  background-color: var(--pattern-yellow);
+  color: var(--dark-purple);
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sidebarNameUser {
+  font-size: 1.5rem;
+  color: var(--pattern-yellow);
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.sidebarOcupationUser {
+  font-size: 1rem;
+  color: var(--pattern-yellow);
+}
+
+.sidebarTopContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarAllButtonsContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonsContentTop,
+.buttonsContentBot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.btnPattern,
+.btnOnlyText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.btnOnlyText {
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+}

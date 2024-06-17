@@ -1,0 +1,62 @@
+.manualSchedulingContainer {
+  padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.manualSchedulingContent {
+  border-radius: 0.625rem;
+  border: 1px solid var(--secondary-gray);
+  padding: 2rem;
+  max-width: 54rem;
+}
+
+.manualSchedulingForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lineInputs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.manualSchedulingTitle h1 {
+  font-size: 1.75rem;
+  color: var(--dark-purple);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.manualSchedulingTitle p {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.25rem;
+}
+
+.inputErrorMessage {
+  color: var(--pattern-red);
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#inputRequired {
+  color: var(--pattern-red);
+  margin-left: 0.25rem;
+}

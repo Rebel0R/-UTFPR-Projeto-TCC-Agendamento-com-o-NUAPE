@@ -1,0 +1,70 @@
+.boxSectionProfessional {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: fit-content;
+  padding: 2rem;
+  max-width: 32rem;
+}
+.topContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.avatarIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 100%;
+  background-color: var(--dark-purple);
+  color: var(--pattern-yellow);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nameProfessionalTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-purple);
+}
+
+.areaProfessionalText {
+  font-size: 1rem;
+  color: var(--dark-purple);
+}
+
+.contentProfessionalText {
+  font-size: 1rem;
+  color: var(--pattern-gray);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.botContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.boxModality {
+  background-color: var(--secondary-gray);
+  padding: 0.5rem;
+  border-radius: 0.625rem;
+}
+
+.textModalityTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--pattern-gray);
+  padding-bottom: 0.5rem;
+}
+
+.textModality {
+  font-size: 0.875rem;
+  color: var(--pattern-gray);
+}

@@ -1,0 +1,15 @@
+.iconButton {
+  text-decoration: none;
+  border-radius: 150%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0px;
+}
+
+.linkIconButton {
+  height: 2rem;
+}

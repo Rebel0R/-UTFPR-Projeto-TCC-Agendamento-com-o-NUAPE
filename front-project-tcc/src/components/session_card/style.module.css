@@ -1,0 +1,23 @@
+.cardSessionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #fff3cf;
+  border-radius: 0.625rem;
+  color: var(--pattern-yellow);
+  padding: 1rem 1.5rem;
+  width: 16rem;
+}
+
+.cardSessionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cardSessionDescription {
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+}

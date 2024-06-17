@@ -1,0 +1,47 @@
+.schedulingContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedulingTitleContent {
+  text-align: center;
+}
+
+.schedulingTitleText {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--dark-purple);
+  padding-bottom: 1rem;
+}
+
+.radioBtnContent {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cardsProfessionalContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.responseMessage {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.schedulingProfessionalContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  min-height: 60vh;
+}

@@ -1,0 +1,28 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  gap: 1.25rem;
+  border: 1px solid var(--secondary-gray);
+  border-radius: 0.625rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.cardDescription {
+  font-size: 0.875rem;
+  color: var(--pattern-gray);
+  max-width: 21rem;
+}
+
+.cardLinkMoreInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--dark-purple);
+  font-weight: 800;
+}

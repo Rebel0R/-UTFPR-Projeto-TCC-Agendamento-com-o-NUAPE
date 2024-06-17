@@ -1,0 +1,89 @@
+.sessionContent {
+  padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cardsSessionsWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+}
+.cardSessionEmptyContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.imgCardSessionEmpty {
+  width: 24rem;
+  height: 24rem;
+}
+
+.cardSessionEmptyText {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--dark-purple);
+  margin-bottom: 1rem;
+}
+
+.cardSessionEmptyLink {
+  font-size: 1rem;
+}
+
+.modalSliderSessionDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modalSliderSessionCaption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalSliderSessionDate h1 {
+  font-size: 1.5rem;
+}
+.modalSliderSessionDate p {
+  font-size: 1rem;
+}
+
+.modalSliderSessionContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modalSliderReasonBox {
+  background-color: var(--secondary-gray);
+  border-radius: 0.625rem;
+  padding: 0.5rem;
+}
+
+.modalSliderReasonTitle {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.alignTextModalSlider {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 0.25rem;
+}
+
+#modalSliderSmallText {
+  font-size: 0.875rem;
+}

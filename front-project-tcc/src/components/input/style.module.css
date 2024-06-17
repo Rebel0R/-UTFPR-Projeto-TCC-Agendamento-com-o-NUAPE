@@ -1,0 +1,19 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.25rem;
+}
+
+.inputErrorMessage {
+  color: var(--pattern-red);
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#inputRequired {
+  color: var(--pattern-red);
+  margin-left: 0.25rem;
+}

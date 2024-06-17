@@ -1,0 +1,18 @@
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkboxContainer label {
+  font-size: 1rem;
+  color: var(--dark-purple);
+}
+
+.checkboxContainer input {
+  margin: 0 0.5rem 0 0;
+}
+
+.checkboxContainer input:checked {
+  accent-color: var(--dark-purple);
+}
